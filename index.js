@@ -24,6 +24,6 @@ function prependDriver(name) {
 }
 function removeLastDriver(name) {
   randomName = drivers.slice();
-  randomName.unshift(name);
+  randomName.pop(name);
   return randomName;
 }
