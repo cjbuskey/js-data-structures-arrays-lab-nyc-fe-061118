@@ -22,7 +22,7 @@ function prependDriver(name) {
   randomName.unshift(name);
   return randomName;
 }
-function prependDriver(name) {
+function removeLastDriver(name) {
   randomName = drivers.slice();
   randomName.unshift(name);
   return randomName;
