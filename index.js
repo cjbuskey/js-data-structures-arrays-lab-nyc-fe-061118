@@ -27,7 +27,7 @@ function removeLastDriver(name) {
   randomName.pop(name);
   return randomName;
 }
-function removeLastDriver(name) {
+function removeFirstDriver(name) {
   randomName = drivers.slice();
   randomName.shift(name);
   return randomName;
