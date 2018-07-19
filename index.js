@@ -14,4 +14,6 @@ function destructivelyRemoveFirstDriver(name) {
 }
 function appendDriver(name) {
   randomName = drivers.slice();
+  randomName.push(name);
+  return randomName;
 }
