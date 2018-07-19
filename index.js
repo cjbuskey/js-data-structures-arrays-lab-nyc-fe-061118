@@ -22,3 +22,8 @@ function prependDriver(name) {
   randomName.unshift(name);
   return randomName;
 }
+function prependDriver(name) {
+  randomName = drivers.slice();
+  randomName.unshift(name);
+  return randomName;
+}
