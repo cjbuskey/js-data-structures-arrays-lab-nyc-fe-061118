@@ -19,6 +19,6 @@ function appendDriver(name) {
 }
 function prependDriver(name) {
   randomName = drivers.slice();
-  randomName.push(name);
+  randomName.unshift(name);
   return randomName;
 }
